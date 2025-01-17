@@ -1,0 +1,109 @@
+baseURL: "https://hchulkim.github.io" 
+title: Hyoungchul Kim 
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: CV
+          url: cv-kim.pdf
+          weight: 1
+        - name: Working Papers
+          url: working/
+          weight: 2
+        - name: Publications
+          url: papers/
+          weight: 3
+        - name: Teaching
+          url: teaching/
+          weight: 4
+        - name: Contact
+          url: contact/
+          weight: 5
+        - name: Misc.
+          url: misc/
+          weight: 6
+params:
+    description: I am a PhD student in Applied Economics at The Wharton School, University of Pennsylvania. You can either call me Hyoungchul (H-Young-Cheol) or Kent (english name).
+    author: Hyoungchul Kim
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: <span style="color:#011F5B">Hyoungchul Kim</span> 
+          subtitle: I am a Ph.D. student in <span style="color:#011F5B">**Applied Economics**</span> at <span style="color:#011F5B">**The Wharton School, University of Pennsylvania**</span>. You can either call me Hyoungchul (H-Young-Cheol) or Kent (my english name).
+          imageUrl: bio-picture.png
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Hyoungchul Kim
+          buttons:
+            - name: CV
+              url: cv-kim.pdf
+            - name: Working Papers
+              url: working/
+            - name: Publications
+              url: papers/
+            - name: Teaching
+              url: teaching/
+            - name: Contact
+              url: contact/
+            - name: Misc.
+              url: misc/
+    socialIcons:
+        - name: Email
+          url: mailto:hchulkim@wharton.upenn.edu
+        - name: Linkedin
+          url: https://www.linkedin.com/in/hyoungchul-kim-267104306/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=GaRgVqoAAAAJ&hl=ko
+        - name: GitHub
+          url: https://github.com/hchulkim
+        - name: Twitter
+          url: https://twitter.com/hckim_econ
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Hyoungchul Kim"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
